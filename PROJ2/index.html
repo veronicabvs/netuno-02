@@ -1,0 +1,300 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="./index.css"> <!--Linko com o arquivo "Index.CSS"-->
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Netuno</title>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon"> <!--Favicon-->
+    <meta name="description" content="O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.">
+
+    <!--Configuro as fontes que utilizarei-->
+    <!--NotoSans-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--HK Grotesk-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <nav>
+           <a><img src="./assets/logo.png" alt="logo"></a>
+           <ul>
+               <li><a href="">O Projeto</a></li>
+               <li><a href="">O Problema</a></li>
+               <li><a href="">Sua Jornada</a></li>
+               <li><a href="">Objetivos</a></li>
+            </ul>
+        <button>Processo Seletivo</button>
+        </nav>
+    <hr id="hr-header">
+    </header>
+<main>
+    <section id="s1"> <!--Primeira seção-->
+            <img src="./assets/bannertopo.png" alt="Banner Topo" id="main-image"> 
+                
+
+                <div id="subscription-form">
+                    <p><h1 id="title-form">Formulário de Cadastro</h1></p>
+                    <form>
+                        <div class="form-group">
+                            <div id>
+                                <p><h2 id="preencha-seus-dados">Preencha seus dados</h2></p>
+                                <input type="text" placeholder="Nome completo*" class="form-camp">
+                                <input type="email" placeholder="E-mail*" class="form-camp">
+
+                                <select name="estado" id="state">
+                                    <option value="" selected>Estado*</option>
+                                    <optgroup label="Região Sudeste">
+                                        <option value="ES">Espírito Santo</option>
+                                        <option value="RJ">Rio de Janeiro</option>
+                                        <option value="SP">São Paulo</option>
+                                        <option value="MG">Minas Gerais</option>
+                                    </optgroup>
+
+                                    <optgroup label="Outra região">
+                                        <option value="outro">Outro</option>
+                                    </optgroup>
+                                </select>
+                            </div>
+
+                            <fieldset id="hardskills"> 
+                                <label><h3 class="subtitle-form2">Conhecimento de Programação*</h3></label>
+                                <label class="tech">
+                                    <input type="checkbox" name="html">HTML
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="css">CSS
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="javascript">JavaScript
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="php">PHP <br>
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name=".net">.NET
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="vue.js">Vue.JS
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="reactjs">ReactJS
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="react-native">React Native <br>
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="node">Node
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="python">Python
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="flutter">Flutter
+                                </label>
+                                <label class="tech">
+                                    <input type="checkbox" name="outras">Outras
+                                </label>
+                            </fieldset>
+
+                            <div id="experiencia-profissional">
+                                <label id="question"><h3>Já trabalhou com desenvolvimento?</h3>
+                                    <input type="radio" name="option" class="option">Sim 
+                                </label>
+                                <label><input type="radio" name="option" class="option">Não
+                                </label>
+                            </div>
+                            <hr id="hr-form">
+                            <h4 id="ps-form1">(*) Campos obrigatórios</h4>
+                        </div>
+                        <button id="form-button">Enviar</button>
+                        <p><h3 id="ps-form2">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em política de privacidade.</h3></p>
+                    </form>
+                </div>
+    </section>
+
+
+
+
+
+    <section id="s2"> <!--Segunda seção, composta por uma imagem e texto-->
+        <div id="s2-elements">
+                <img src="./assets/dev.png" alt="Dev" id="image2">
+            <div id="the-project-text">
+                <h1 id="the-project">O Projeto</h1>
+                <p><h2 id="the-project-description">Com o "novo normal" causado pela pandemia dos últimos anos, mais empresas no mundo todo têm aberto oportunidades no modelo Home Office. <br>
+                Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países.</p> <br>
+                <p><strong>O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.</strong></h2></p>
+            </div>
+        </div>
+    <br>
+    </section>
+
+
+
+
+
+
+    <section id="s3"> <!--Terceira seção, com uma imagem e texto-->
+            <div id="the-problem">
+                <img src="./assets/Container2.png" alt="O Problema" id="image3">
+                <div id="the-problem-text">
+                    <h1 id="the-problem-title">O Problema</h1>
+                    <h2 id="the-problem-subtitle">Falta de profissionais de TI no Mercado brasileiro: um problema que demanda atenção urgente.</h2> <br>
+                    <hr id="hr-the-ptoblem">
+                    <br>
+                    <h3 id="the-problem-text2">Estima-se que atualmente tenhamos um déficit de 408 mil postos de trabalho, com perdas se acumulando na casa dos R$ 167 bilhões, de acordo com a Softex, uma organização social voltada ao fomento da área de TI.</h3>
+                    <h3 id="the-problem-text3"><strong>Um dos principais fatores dessa falta de profissionais é o êxodo de profissionais para o exterior.</strong></h3>
+                </div>
+            </div>
+            <div id="benefits">
+                <div class="card-beneficits">
+                    <h2 class="title-beneficits">Oportunidade</h2>
+                    <h3 class="beneficits-description">Acreditamos que a combinação de interesse, dedicação e oportunidade pode causar um grande impacto nas pessoas, nas organizações e no mundo.</h3>
+                </div>
+                <div class="card-beneficits">
+                    <h2 class="title-beneficits">Comunidade</h2>
+                    <h3 class="beneficits-description">Dentro de um grupo de pessoas mais experientes e acessíveis, a curva de aprendizado ocorre de forma mais rápida, fluída e eficiente.</h3>
+                </div>
+                <div class="card-beneficits">
+                    <h2 class="title-beneficits">Experiência Real</h2>
+                    <h3 class="beneficits-description">Entendemos que somente as experiências reais poderão trazer a bagagem que a teoria não pode fazer.</h3>
+                </div>
+            </div>
+    </section>
+
+
+
+
+
+
+    <section id="s4"> <!--Composta por cards e botão de cadastro-->
+            <div id="title-your-journey">
+                <div><img src="./elements/Vector2.png" alt="White Vector" id="white-vector1"></div>
+                <div id="text-yourjourney"><h1>Sua Jornada</h1></div>
+                <div><img src="./elements/Vector2.png" alt="White Vector" id="white-vector2"></div>
+            </div>
+
+            <div id="journey-container">
+                <div class="cards-your-journey">
+                    
+                    <div class="card">
+                        <img src="./icons/calendario.png" alt="Calendar Icon" class="icon"> 
+                        <h3 class="text-card"> Programas de 4 meses de duração, sendo 6horas/dia.</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./icons/medalha.png" alt="Medal icon" class="icon">
+                        <h3 class="text-card">Do Zero ao Junior Promissor em 4 meses.</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./icons/relogio.png" alt="Watch icon" class="Icon">
+                        <h3 class="text-card">640 horas de aplicação prática dos conceitos.</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./icons/home.png" alt="Home icon" class="icon">
+                        <h3 class="text-card">Mentoria individual e coletiva em padrão ágil.</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./icons/group.png" alt="Group Icon" class="icon">
+                        <h3 class="text-card">100% Home Office com plataformas de cursos online.</h3>
+                    </div>
+
+                    <div class="card">
+                        <img src="./icons/target.png" alt="Target icon" class="icon">
+                        <h3 class="text-card">Variedade de áreas dentro da tecnologia.</h3>
+                    </div>
+                    
+                </div> 
+                
+            </div>
+
+            <div id="register-button-area">
+                <button id="register-button">
+                    <h3 id="text-register-button">Quero me cadastrar para o Processo Seletivo</h3>
+                    <img src="./icons/enter.png" alt="Enter Icon" id="enter-icon">
+                </button>
+                <img src="./elements/Vector1.png" alt="Blue Vector" id="blue-vector">
+            </div>
+
+    </section>
+
+
+
+
+
+    <section id="s5"> <!--Objetivos com três banners-->  
+            <h1 id="title-obj">Objetivos</h1>
+
+            <div class="cards-objectives">
+                <div class="card-obj">
+                    <h2 class="obj-title">Otimizar</h2>
+                    <h3 class="obj-card-description">Otimizamos todo o processo de contratação, contribuindo para uma economia de 40% no processo de recrutamento.</h3>
+                </div>
+                <div class="card-obj">
+                    <h2 class="obj-title">Gerar</h2>
+                    <h3 class="obj-card-description">Gerar novas oportunidades de carreira para pessoas interessadas em ingressar na área ou migrar de outras áreas que esteja descontente.</h3>
+                </div>
+                <div class="card-obj">
+                    <h2 class="obj-title">Filtrar</h2>
+                    <h3 class="obj-card-description">Criar oportunidades brilhantes para profissionais que se destacarem junto a parceiros estratégicos de negócios.</h3>
+                </div>
+            </div>
+
+    </section>
+</main>
+    <footer>
+        <div id="footer-elements">
+
+            <div id="p1-footer">
+                <a>
+                    <img src="./assets/logo+slogan.png" alt="Netuno-Gerando-diamantes">
+                </a>
+
+                <div id="social-media">
+                    <img src="./icons/fb.png" alt="Facebook">
+                    <img src="./icons/ig.png" alt="Instagram">
+                    <img src="./icons/in.png" alt="LinkedIn">
+                </div>
+
+                <div>
+                    <h4 id="footer-text-copy"> Netuno 2022© - Todos os direitos reservados</h4>
+                </div>
+
+            </div>
+            <div id="p2-footer">
+                
+                <div>
+                    <button id="f-button"><h3 id="footer">Processo seletivo</h3></button>
+                </div>
+
+                <li id="footer-list">
+                    <a href="the-project" class="footer-list-text">O Projeto</a>
+                    <a href="the-problem" class="footer-list-text">O Problema</a>
+                    <a href="your-journey" class="footer-list-text">Sua Jornada</a>
+                    <a href="objectives" class="footer-list-text">Objetivos</a>
+                </li>
+
+                <div id="p3-footer">
+                <li>
+                    <h3 class="footer-text">Contato</h3>
+                    <h3 class="footer-text">11 91234.5678</h3>
+                    <h3 class="footer-text">contato@netuno.com.br</h3>
+                </li>
+                </div>
+
+            </div>
+
+        </div>
+    </footer>
+</body>
+</html>
